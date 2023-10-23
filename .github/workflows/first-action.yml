@@ -5,5 +5,7 @@ jobs:
     runs-on: self-hosted
       steps:
         - name: Print greeting
-          run: "Hello World
+          run: echo "Hello World"
+        - name: Pront goodbay
+          run: echo "Good By !"
   
